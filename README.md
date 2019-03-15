@@ -17,10 +17,20 @@ Raleigh, Clionadh, Andrew Linke, Håvard Hegre and Joakim Karlsen. (2010).“Int
 
 ## Exploratory Analysis
 
-Break down data into Non-fatal, low fatalities (<5) and high fatalities(>=5).
+Break down data into fatalities labels: Non-fatal, low fatalities (<5) and high fatalities(>=5).
 
 Look at the distribution of event counts in all the above 3 categories for different
 
 1. Months
 2. States
 3. Type of events
+
+## Supervised Learning
+
+Applying various supervised learning alogrithms and see which one is the best in terms of accuracy of predicting fatality label especially for fatal events.
+
+Since the data is unbalanced as non-fatal data is much higher in number than fatal events. We employ up-sampling and penalizing algortihms.
+
+## Final result
+
+We found by upsampling and using logistic regression, we can predict fatality label of any event with *89% accuracy* and fatal events with *80% accuracy*. Moreover, we can predict with very high accuracy *fatalities in political violence event with violence against civilians*.
