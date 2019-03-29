@@ -880,7 +880,7 @@ plt.ylabel('Frequency')
 
 
 
-![png](output_47_1.png)
+![png](output_19_1.png)
 
 
 What we can see here that number of non-fatal events is significantly higher than fatal events. Also, events with >5 fatalities is even lower. So, we create new feature called 'Fatality_Label'.
