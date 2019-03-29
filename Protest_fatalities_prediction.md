@@ -1067,7 +1067,7 @@ for i in range(3):
 ```
 
 
-![png](output_57_0.png)
+![png](output_25_0.png)
 
 
 
@@ -1091,7 +1091,7 @@ for i in range(3):
 ```
 
 
-![png](output_58_0.png)
+![png](output_26_0.png)
 
 
 
@@ -1122,7 +1122,7 @@ for i in range(3):
 ```
 
 
-![png](output_59_0.png)
+![png](output_27_0.png)
 
 
 
@@ -1708,7 +1708,7 @@ plt.show()
 ```
 
 
-![png](output_74_0.png)
+![png](output_42_0.png)
 
 
 
@@ -1745,5 +1745,5 @@ for i in range(2):
 ```
 
 
-![png](output_76_0.png)
+![png](output_44_0.png)
 
