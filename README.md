@@ -13,7 +13,8 @@ Raleigh, Clionadh, Andrew Linke, Håvard Hegre and Joakim Karlsen. (2010).“Int
 
 ## Data Cleaning
 
-(Jupyter Notebook:)[https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Fatalities_prediction_Data_Cleaning.ipynb]
+[Jupyter Notebook](https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Fatalities_prediction_Data_Cleaning.ipynb)
+
 1. Drop columns that are not relavant to the analysis and do not provide any additional information.
 2. Transform relavant columns to numerical values to apply supervised learning algorithms
 
