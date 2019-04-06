@@ -13,7 +13,7 @@ Raleigh, Clionadh, Andrew Linke, Håvard Hegre and Joakim Karlsen. (2010).“Int
 
 ## Data Cleaning
 
-[Jupyter Notebook](https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Fatalities_prediction_Data_Cleaning.ipynb)
+[Jupyter Notebook](https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Data_Cleaning.ipynb)
 
 1. Drop columns that are not relavant to the analysis and do not provide any additional information.
 2. Transform relavant columns to numerical values to apply supervised learning algorithms
@@ -32,10 +32,14 @@ Look at the distribution of event counts in all the above 3 categories for diffe
 
 ## Model Training and Evaluation
 
+[Jupyter Notebook](https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Model_training_and_evaluation.ipynb)
+
 Applying various supervised learning alogrithms and see which one is the best in terms of accuracy of predicting fatality label especially for fatal events.
 
 Since the data is unbalanced as non-fatal data is much higher in number than fatal events. We employ up-sampling and penalizing algortihms.
 
 ## Final results
 
-We found by upsampling and using logistic regression, we can predict fatality label of any event with *89% accuracy* and fatal events with *80% accuracy*. Moreover, we can predict with very high accuracy *fatalities in political violence event with violence against civilians*.
+[Jupyter Notebook](https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Final_Results.ipynb)
+
+We found by upsampling and using logistic regression, we can predict fatality label of any event with *87% accuracy* and fatal events with *92% accuracy*. 
