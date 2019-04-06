@@ -22,12 +22,13 @@ Raleigh, Clionadh, Andrew Linke, Håvard Hegre and Joakim Karlsen. (2010).“Int
 
 [Jupyter Notebook](https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Data_visualization.ipynb)
 
-Break down data into fatalities labels: Non-fatal, low fatalities (<5) and high fatalities(>=5).
+Break down data into fatalities labels: Non-fatal and fatal events.
 
 Look at the distribution of event counts in all the above 3 categories for different
 
 1. Months
 2. States
+4. Scale of the source of news of the event
 3. Type of events
 
 ## Model Training and Evaluation
@@ -36,10 +37,10 @@ Look at the distribution of event counts in all the above 3 categories for diffe
 
 Applying various supervised learning alogrithms and see which one is the best in terms of accuracy of predicting fatality label especially for fatal events.
 
-Since the data is unbalanced as non-fatal data is much higher in number than fatal events. We employ up-sampling and penalizing algortihms.
+Since the data is unbalanced as non-fatal data is much higher in number than fatal events. We employ up-sampling the minority classes in training data.
 
 ## Final results
 
 [Jupyter Notebook](https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Final_Results.ipynb)
 
-We found by upsampling and using logistic regression, we can predict fatality label of any event with *87% accuracy* and fatal events with *92% accuracy*. 
+We found by upsampling and using XG Boost Classifier, we can predict fatality label of any event with *87% accuracy* and fatal events with *92% accuracy*. Moreover, We identify the events and states for which the prediction accuracy is high.
