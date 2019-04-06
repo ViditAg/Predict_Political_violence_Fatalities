@@ -1,0 +1,4 @@
+﻿geo_precision_code,precision_level
+1,highest (exact location)
+2,intermediate (regional)
+3,lowest (provincial)
