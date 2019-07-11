@@ -37,10 +37,10 @@ Look at the distribution of event counts in all the above 3 categories for diffe
 
 Applying various supervised learning alogrithms and see which one is the best in terms of accuracy of predicting fatality label especially for fatal events.
 
-Since the data is unbalanced as non-fatal data is much higher in number than fatal events. We employ up-sampling the minority classes in training data.
+Since the data is unbalanced as non-fatal data is much higher in number than fatal events. I employ up-sampling the minority classes in training data.
 
 ## Final results
 
 [Jupyter Notebook](https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Final_Results.ipynb)
 
-We found by upsampling and using XG Boost Classifier, we can predict fatality label of any event with *87% accuracy* and fatal events with *92% accuracy*. Moreover, We identify the events and states for which the prediction accuracy is high.
+I found by upsampling and using XG Boost Classifier, we can predict fatality label of any event with *87% accuracy* and fatal events with *92% accuracy*. Moreover, I identify the events and states for which the prediction accuracy is high.
