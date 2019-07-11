@@ -43,4 +43,4 @@ Since the data is unbalanced as non-fatal data is much higher in number than fat
 
 [Jupyter Notebook](https://github.com/ViditAg/Predict_Political_violence_Fatalities/blob/master/Final_Results.ipynb)
 
-I found by upsampling and using XG Boost Classifier, we can predict fatality label of any event with *87% accuracy* and fatal events with *92% accuracy*. Moreover, I identify the events and states for which the prediction accuracy is high.
+I found by upsampling and using XG Boost Classifier, we can predict fatality label of any event with *87% accuracy* and recall 92% of the fatal events.
